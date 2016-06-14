@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title></title>
+		<meta name="description" content="">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+	<body bgcolor="#fceede">
+	<!-- Your Code Goes Here. Remember to remove this comment once you've started, you don't need it :) -->
+			<!-- Main-->
+			<div class="container" id="main">
+
+				<!--Navbar-->
+				<div class="navbar navbar-fixed-top">
+
+						<!--Container-->
+						<div class="container">
+
+								<!--Icon bar for mobile view-->
+								<button class="navbar-toggle" data-target=".navbar-responsive-collapse"
+								data-toggle="collapse" type="button">
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></s pan>
+								</button> <!--End of icon bar for mobile view-->
+
+								<!--Navigation bar starts-->
+								<a class="navbar-brand" href="/" ><img src="images/logo.png" alt="Your Logo" width="100" height="50"></a>
+								<div class="nav-collapse collapse navbar-responsive-collapse">
+
+									<!--Nav bar Items-->
+									<ul class="nav navbar-nav">
+
+										<li class="">
+											<a href="#"> HOME</a>
+										</li>
+
+										<li class="">
+											<a href="#"> ABOUT US</a>
+										</li>
+
+										<!--dropdown items in navbar-->
+										<li class="dropdown">
+											<a href="#" class="dropdown-toggle" data-toggle="dropdown">ADMISSIONS
+											<strong class="caret"></strong></a>
+
+													<ul class="dropdown-menu">
+															<li>
+																<a href="#">Web Design</a>
+															</li>
+															<li>
+																<a href="#">Web Development</a>
+															</li>
+															<li>
+																<a href="#">SEO</a>
+															</li>
+
+															<li class="divider"></li>
+
+															<li class="dropdown-header">More Services </li>
+															<li>
+																<a href="#">PG</a>
+															</li>
+															<li>
+																<a href="#">UG</a>
+															</li>
+
+													</ul>
+										</li> <!--dropdown items in navbar ends-->
+
+										<li class="">
+											<a href="#"> RESEARCH</a>
+										</li>
+
+										<li class="">
+											<a href="#"> EVENTS</a>
+										</li>
+
+									</ul> <!--Navbar items ends-->
+
+									<form class="navbar-form pull-left">
+										<input type="text" class="form-control" placeholder="Search here..." id="searchinput">
+										<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+									</form>
+
+									<!--dropdown for My Account-->
+									<ul class="nav navbar-nav pull-right">
+											<li class="dropdown">
+												<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>My Account
+												<strong class="caret"></strong></a>
+
+													<!--Items in dropdown menu My Account-->
+													<ul class="dropdown-menu">
+														<li>
+															<a href="#"><span class="glyphicon glyphicon-wrench"></span>Settings</a>
+														</li>
+														<li>
+															<a href="#"><span class="glyphicon glyphicon-refresh"></span>Update Profile</a>
+														</li>
+														<li>
+															<a href="#"><span class="glyphicon glyphicon-briefcase"></span>Billing</a>
+														</li>
+
+														<li class="divider"></li>
+
+														<li>
+															<a href="#"><span class="glyphicon glyphicon-off"></span>Sign out</a>
+														</li>
+													</ul> <!--items in dropdown menu My Account ends-->
+
+											</li>
+									</ul> <!--Dropdown for My Account ends-->
+
+								</div> <!--Container div ends-->
+
+						</div> <!--Navbar div ends-->
+				</div> <!--Main div ends-->
+
+				<!--Slider div starts-->
+				<div class="carousel slide" id="myCarousel">
+
+					<!--Carousel indicator-->
+					<ol class="carousel-indicators">
+							<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+							<li data-slide-to="1" data-target="#myCarousel"></li>
+							<li data-slide-to="2" data-target="#myCarousel"></li>
+					</ol> <!--Carousel indicator ends-->
+
+					<!--Carousel inner starts-->
+					<div class="carousel-inner">
+
+							<!--slider1-->
+							<div class="item active" id="slide1">
+										<div class="carousel-caption">
+											<h2>AZIM PREMJI UNIVERSITY</h2>
+											<p>Create Your Future With Us</p>
+											<a href="" class="btn btn-large btn-link">More Info</a>
+									</div>
+							</div> <!--Slider1 ends-->
+
+							<!--slider2-->
+							<div class="item" id="slide2">
+									<div class="carousel-caption">
+											<h2>AZIM PREMJI UNIVERSITY</h2>
+											<p>Raising The Skill Level Of Students In Home Convenience</p>
+											<a href="" class="btn btn-large btn-link">More Info</a>
+									</div>
+							</div> <!--slider2 ends-->
+
+							<!--slider3-->
+							<div class="item" id="slide3">
+									<div class="carousel-caption">
+											<h2>AZIM PREMJI UNIVERSITY</h2>
+											<p>Learning is the act of acquiring new, or modifying and reinforcing,
+												 existing knowledge, behaviors, skills, values, or preferences and
+												 may involve synthesizing different types of information</p>
+												 <a href=""><small>More Info</small></a>
+									</div>
+							</div> <!--slider3 ends-->
+
+					</div> <!--Carousel inner ends-->
+
+					<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+					<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+				</div> <!--Slider div ends-->
+
+				<!--Big callout starts-->
+				<div class="row" id="bigCallout">
+						<div class="col-12">
+
+								<!--Success alert box-->
+								<div class="alert alert-success alert-block fade in" id="successAlert">
+										<button type="button" class="close" data-dismiss="alert">&times;</button>
+										<h4>Welcome</h4>
+										<p>Welcome To The World Of Learning</p>
+								</div> <!--success alert box ends-->
+
+								<!--visible only on small devices-->
+								<!--give a call : well small-->
+								<div class="well well-small visible-sm">
+										<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span>
+										 For Any Queries Give us a Call!</a>
+								</div> <!--give a call : well-small end-->
+
+								<div class="well">
+										<div class="page-header">
+												<h3>OUR COLLEGE </h3>
+										</div> <!--page header end-->
+
+										<p class="lead">Azim Premji University was established as a not-for-profit, private autonomous university
+											under the Azim Premji University Act 2010 of the Karnataka Legislature in India. The mission of
+											Azim Premji University is to create outstanding and effective programmes of learning, research and
+											advocacy in education, development and allied fields like health, nutrition, and livelihood.
+											Our faculty and field practitioners integrate academic rigour with
+											learnings from real-world experience including Azim Premji Foundation's field work.</p>
+
+										<a href="" class="btn btn-medium btn-primary">Read More</a> &nbsp;&nbsp;&nbsp;
+										<a href="" class="btn btn-small btn-primary" id="alertMe">Click Here For Welcome Message</a>
+
+								</div> <!--well end-->
+						</div> <!--Col_12 end-->
+				</div> <!--Big callout ends-->
+
+				<!--feature heading 3 column: grid-->
+				<div class="row" id="featuresHeading">
+						<!--feature heading col-12 start-->
+						<div class="col-12">
+								<h3>More Attractions</h3>
+								<p class="lead">More Attractions Of Our University.</p>
+						</div> <!--feature heading col-12 end-->
+				</div> <!--feature heading end (3 column:grid)-->
+
+				<!--features start-->
+				<div class="row" id="features">
+						<div class="col-sm-4 feature">
+								<div class="panel">
+										<div class="panel-heading">
+												<h3 class="panel-title">Convocation</h3>
+										</div> <!--panel heading end-->
+										<img src="images/badge_html5.jpg" alt="convocation" width="200" height="200" class="img-circle">
+
+										<p>A convocation is a group of people formally assembled for a special purpose,
+										mostly ecclesiastical or academic.</p>
+
+										<a href=" " target="_blank" class="btn btn-warning btn-block">Want To Know More</a>
+
+								</div> <!--panel end-->
+						</div> <!--feature col-sm-4 end-->
+
+						<div class="col-sm-4 feature">
+								<div class="panel">
+										<div class="panel-heading">
+												<h3 class="panel-title">Library</h3>
+										</div> <!--panel heading end-->
+										<img src="images/badge_css3.jpg" alt="library" width="200" height="200" class="img-circle">
+
+										<p>A library is a collection of sources of information and similar resources,
+										made accessible to a defined community for reference or borrowing.</p>
+
+										<a href=" " target="_blank" class="btn btn-danger btn-block">Get More Knowledge</a>
+
+								</div> <!--panel end-->
+						</div> <!--feature col-sm-4 end-->
+
+						<div class="col-sm-4 feature">
+								<div class="panel">
+										<div class="panel-heading">
+												<h3 class="panel-title">Entrance</h3>
+										</div> <!--panel heading end-->
+										<img src="images/badge_bootstrap.jpg" alt="entrance" width="200" height="200" class="img-circle">
+
+										<p>Entrance generally refers to the place of entering like a gate or door,
+										or the permission to do so. APU entrance welcomes you to the world of learning.</p>
+
+										<a href=" " target="_blank" class="btn btn-info btn-block">Way To Come</a>
+
+								</div> <!--panel end-->
+						</div> <!--feature col-sm-4 end-->
+
+				</div> <!--feature end-->
+
+				<!--more info start-->
+				<div class="row" id="moreInfo">
+						<div class="col-sm-6">
+								<h3>Bring all skill development under one umbrella</h3>
+								<div class="tabbable">
+
+										<ul class="nav nav-tabs">
+												<li class="active"><a href="#tab1" data-toggle="tab">Site Map</a></li>
+												<li><a href="#tab2" data-toggle="tab">Learning</a></li>
+										</ul> <!--ul end-->
+
+										<div class="tab-content">
+												<div class="tab-pane active" id="tab1">
+
+														<h4><span class="glyphicon glyphicon-map-marker"></span>
+														Our Location<small> : Reach Us Through Google Map</small></h4>
+
+														<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.7010175420373!2d77.66272901482087!3d12.862577390927548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6ca333d66cbb%3A0x2d04fd24fb931c3b!2sAzim+Premji+University!5e0!3m2!1sen!2sin!4v1465844577686"
+														width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+														<p>The campus is on Hosur Road on the outskirts of Bangalore in Karnataka,
+														India, which is a leased premise. The private campus is under construction
+														between Attibele and Sarjapura. Azim Premji University began its operations
+														from an interim campus on the premises of P.E.S. School of Engineering on
+														Hosur Road in Bangalore.[14] The university operates on leased premises of
+														over 1 lakh square feet. </p>
+
+														<p>A permanent campus for the university is being developed on Sarjapur Road
+														on the outskirts of Bangalore. The new 80-acre campus will cater to a community
+													  of 3500, with staff and student residences.</p>
+
+												</div> <!--tab pane active end-->
+
+												<div class="tab-pane" id="tab2">
+														<h4>Learn in a better way<small> : RAISING THE SKILL LEVEL OF STUDENTS</small></h4>
+														<img src="images/leftimage1.gif" height="250" width="350" class="thumbnail pull-left">
+
+														<p>Learning is the act of acquiring new, or modifying and reinforcing,
+														existing knowledge, behaviors, skills, values, or preferences and may
+														involve synthesizing different types of information. The ability to
+														learn is possessed by humans, animals, plants and some machines.
+														By way of learning we can acquire more knowledge and it will leads to
+														a good culture.</p>
+
+														<hr color="black">
+
+														<a href="#myModal" role="button" class="btn btn-warning"
+														data-toggle="modal"><span class="glyphicon glyphicon-hand-up">
+														</span>Send Your Feedback</a>
+
+
+														<div class="modal fade" id="myModal">
+																<div class="modal-dialog">
+																		<div class="modal-content">
+
+																				<div class="modal-header">
+																					<button class="close" data-dismiss="modal">&times;</button>
+																					<h4 class="modal-title">Feedback </h4>
+																				</div> <!--modal header end-->
+
+																				<div class="modal-body">
+																					<h4>Please provide Your Feedback and Valuable Suggestions...</h4>
+
+																					<hr>
+
+																					<form class="form-horizontal">
+																							<div class="form-group">
+																									<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+																									<div class="col-lg-10">
+																											<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+																									</div> <!--col-lg-10 end-->
+																							</div> <!--form group end-->
+																					</form> <!--modal window form end-->
+
+
+																				</div> <!--modal body end-->
+
+																				<div class="modal-footer">
+																						<button class="btn btn-success" type="submit">Send </button>
+																						<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+																				</div> <!--modal footer end-->
+
+																		</div> <!--modal content end-->
+																</div> <!--modal dialog end-->
+														</div> <!--myModal end-->
+
+
+												</div> <!--tab pane end-->
+										</div> <!--tab content end-->
+								</div> <!--tabbable end-->
+						</div> <!--col-sm-6 end-->
+
+						<div class="col-sm-6">
+								<h3>QUICK LINKS</h3>
+								<h4>Links</h4>
+								<div class="list-group">
+										<a href="#" class="list-group-item">
+												<h5 class="list-group-item-heading">Courses</h5>
+										</a>
+										<a href="#" class="list-group-item">
+												<h5 class="list-group-item-heading">News</h5>
+										</a>
+										<a href="#" class="list-group-item">
+												<h5 class="list-group-item-heading">Placement</h5>
+										</a>
+										<a href="#" class="list-group-item">
+												<h5 class="list-group-item-heading">Alumni</h5>
+										</a>
+										<a href="#" class="list-group-item">
+												<h5 class="list-group-item-heading">Publications</h5>
+										</a>
+										<a href="#" class="list-group-item">
+												<h5 class="list-group-item-heading">Azim Premji Foundation</h5>
+										</a>
+										<a href="#" class="list-group-item">
+												<h5 class="list-group-item-heading">Library</h5>
+										</a>
+								</div> <!--list group end-->
+						</div> <!--col-sm-6 end-->
+
+				</div> <!--more info end-->
+
+				<hr color="black">
+
+				<div class="row" id="moreCourses">
+						<div class="col-12">
+								<h3><u><i>Our Faculties and Facilities</i></u></h3>
+								<div class="thumbnails row">
+
+										<div class="col-6">
+												<div class="thumbnail">
+
+														<img src="images/gallery1.png" alt="Gallery">
+														<div class="caption">
+																<h3>Gallery</h3>
+														</div> <!--caption end-->
+
+												</div> <!--thumbnail end-->
+										</div> <!--col-6 end-->
+
+										<div class="col-6">
+												<div class="thumbnail">
+
+														<img src="images/teacher.jpg" alt="Professor" >
+														<div class="caption">
+																<h3>Professor</h3>
+														</div> <!--caption end-->
+
+												</div> <!--thumbnail end-->
+										</div> <!--col-6 end-->
+								</div> <!--thumbnails end-->
+						</div> <!--col-12 end-->
+				</div>
+
+			</div>
+
+			<hr>
+
+			<footer>
+				<div class="container">
+					<div class="row">
+
+							<div class="col-sm-4">
+									<h5>Copyrights &copy; 2016 All Rights Reserved</h5>
+							</div> <!--col-sm-2 end-->
+
+							<div class="col-sm-4">
+									<h5>Contact Us</h5>
+									<p>reachus@apu.edu.in <br> 1800 843 2001</p>
+							</div> <!--col-sm-4 end-->
+
+							<div class="col-sm-4">
+									<h5>Follow Us</h5>
+
+									<ul class="unstyled">
+										<li><a href=" "><img src="images/fb.jpg" alt="facebook" width="40" height="40" class="img-circle"/></a></li>
+										<li><a href=" "><img src="images/google.png" alt="google+" width="40" height="40" class="img-circle"/></a></li>
+										<li><a href=" "><img src="images/twitter.png" alt="twitter" width="40" height="40" class="img-circle"/></a></li>
+										<li><a href=" "><img src="images/videor.png" alt="video" width="50" height="50" class="img-circle"/></a></li>
+										<li><a href=" "><img src="images/linkedin.png" alt="linkedin" width="40" height="40" class="img-circle"/></a></li>
+							   </ul> <!--ul end-->
+							</div> <!--col-sm-2 end-->
+
+
+					</div> <!--row end-->
+				</div> <!--container end-->
+			</footer>
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+	</body>
+</html>
